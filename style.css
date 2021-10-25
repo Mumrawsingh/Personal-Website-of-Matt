@@ -11,6 +11,15 @@ body {
     left: 800px;
   }
 
+  #fun > div {
+  
+    float: left;
+    background: black;
+    width: 25%;
+    color: blueviolet;
+    text-align: center;
+    font-size: x-large;
+  }
 
   #aboutMe > div {
   
