@@ -1,12 +1,12 @@
 body {
-    background-image: url(/Sample-Image.jpg);
-  background: #c0c0c0;
+    background-image: url(./Sample-Image.jpg);
+    background-size: cover;
 }
 
 /* Select the image with id of MattU */
 
 h1 {
-    color: blueviolet;
+    color: #460880;
     font-size: 50px;
     font-family: fantasy;
 }
