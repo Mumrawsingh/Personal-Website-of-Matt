@@ -2,3 +2,11 @@ body {
   background: #c0c0c0;
 }
 
+/* Select the image with id of MattU */
+
+#MattU {
+    position: absolute;
+    z-index: 2;
+    top: 212px;
+    left: 369px;
+}
