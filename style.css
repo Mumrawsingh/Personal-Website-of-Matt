@@ -10,3 +10,12 @@ body {
     top: 212px;
     left: 800px;
   }
+
+  #aboutMe > div {
+  
+    float: left;
+    background: black;
+    width: 25%;
+    text-align: center;
+    font-size: xx-large;
+  }
