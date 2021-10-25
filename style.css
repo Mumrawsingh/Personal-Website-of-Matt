@@ -4,6 +4,13 @@ body {
 
 /* Select the image with id of MattU */
 
+h1 {
+    color: blueviolet;
+    font-size: 50px;
+    font-family: fantasy;
+}
+
+
 #MattU {
     position: absolute;
     z-index: 4;
