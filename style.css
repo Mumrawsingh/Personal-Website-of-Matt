@@ -6,7 +6,7 @@ body {
 
 #MattU {
     position: absolute;
-    z-index: 2;
+    z-index: 5;
     top: 200px;
     left: 600px;
 }
