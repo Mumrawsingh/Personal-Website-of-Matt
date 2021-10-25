@@ -3,7 +3,13 @@ body {
     background-size: cover;
 }
 
-/* Select the image with id of MattU */
+#Planet {
+  width: 400px;
+  border 1px;
+  padding-left: 25px;
+  text-align: center;
+  
+}
 
 h1 {
     color: #460880;
@@ -21,7 +27,7 @@ h2 {
 #MattU {
     position: absolute;
     z-index: 4;
-    top: 100px;
+    top: 150px;
     left: 850px;
   }
 #sus {
