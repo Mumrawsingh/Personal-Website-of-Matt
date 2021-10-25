@@ -1,4 +1,7 @@
-const h2 = document.createElement("h2");
-h2.textContent = "Welcome to my world!";
 
-document.querySelector("body").appendChild(h2);
+    function setNewImage() {
+            document.getElementById("sus").src ="AmongUsShh";
+       } 
+    function setOldImage() {
+        document.getElementById("sus").src ="AmongUsSus";
+       }

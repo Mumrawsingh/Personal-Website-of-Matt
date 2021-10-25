@@ -7,8 +7,14 @@ body {
 
 h1 {
     color: #460880;
-    font-size: 50px;
+    font-size: 60px;
     font-family: fantasy;
+}
+
+h2 {
+    color: #460880;
+    font-family: fantasy;
+    font-size: 40px;
 }
 
 
@@ -18,7 +24,12 @@ h1 {
     top: 100px;
     left: 850px;
   }
-
+#sus {
+    position: absolute;
+    z-index: 2;
+    top: 350px;
+    left: 630px;
+}
 
   #fun > div {
   
