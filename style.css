@@ -7,8 +7,8 @@ body {
 #MattU {
     position: absolute;
     z-index: 4;
-    top: 212px;
-    left: 800px;
+    top: 200px;
+    left: 850px;
   }
 
   #fun > div {
@@ -19,14 +19,17 @@ body {
     color: blueviolet;
     text-align: center;
     font-size: x-large;
+    line-height: 34px;
+    
   }
 
   #aboutMe > div {
   
     float: left;
     background: black;
-    width: 25%;
+    width: 35%;
     color: blueviolet;
     text-align: center;
     font-size: x-large;
+    
   }
