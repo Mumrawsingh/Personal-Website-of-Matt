@@ -4,3 +4,9 @@ body {
 
 /* Select the image with id of MattU */
 
+#MattU {
+    position: absolute;
+    z-index: 4;
+    top: 212px;
+    left: 800px;
+  }
