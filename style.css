@@ -8,12 +8,14 @@ body {
   padding-left: 25px;
   text-align: center;
   
+  
 }
 
 h1 {
     color: #460880;
     font-size: 60px;
     font-family: fantasy;
+    text-decoration: #460880 underline;
 }
 
 h2 {
@@ -33,7 +35,7 @@ h2 {
   #fun > div {
   
     
-    background: black;
+    background: transparent black;
     width: 35%;
     color: blueviolet;
     text-align: center;
@@ -45,7 +47,7 @@ h2 {
   #aboutMe > div {
   
     
-    background: black;
+    background: transparent black;
     width: 35%;
     color: blueviolet;
     text-align: center;
