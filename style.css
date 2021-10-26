@@ -13,14 +13,14 @@ body {
 }
 
 h1 {
-    color: #460880;
+    color: silver;
     font-family: fantasy;
     font-size: 60px;
-    text-decoration: #460880 underline;
+    text-decoration: indigo underline;
 }
 
 h2 {
-    color: #460880;
+    color: silver;
     font-family: fantasy;
     font-size: 40px;
 }
@@ -81,7 +81,7 @@ h2 {
     
     background: transparent black;
     width: 35%;
-    color: blueviolet;
+    color: silver;
     text-align: center;
     font-size: x-large;
     line-height: 30px;
@@ -94,7 +94,7 @@ h2 {
     
     background: transparent black;
     width: 35%;
-    color: blueviolet;
+    color: silver;
     text-align: center;
     font-size: x-large;
     
