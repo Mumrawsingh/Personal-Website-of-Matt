@@ -28,8 +28,8 @@ h2 {
 #Warp {
   position: absolute;
   z-index: 3;
-  top: 500px;
-  left: 15px; 
+  top: 510px;
+  left: 20px; 
   width: 100px;
   height: 100px;
   border-radius: 50%;
