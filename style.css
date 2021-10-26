@@ -28,8 +28,8 @@ h2 {
 #Lightspeed {
   position: absolute;
   z-index: 3;
-  top: 550px;
-  left: 550px; 
+  top: 800px;
+  left: 10px; 
   width: 100px;
   border-radius: 50%;
 } 
@@ -37,8 +37,8 @@ h2 {
 #MilleniumFalcon {
   position: absolute;
   z-index: 3;
-  top: 550px;
-  left: 550px; 
+  top: 800px;
+  left: 10px; 
   width: 100px;
   border-radius: 50%;
 }
