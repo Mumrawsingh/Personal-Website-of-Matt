@@ -25,29 +25,37 @@ h2 {
     font-size: 40px;
 }
 
-#Lightspeed {
+#Warp {
   position: absolute;
   z-index: 3;
-  top: 60px;
-  left: 680px; 
+  top: 500px;
+  left: 15px; 
   width: 100px;
   height: 100px;
   border-radius: 50%;
 } 
 
-#MilleniumFalcon {
+#Warp {
+  opacity: 100%;
+}
+
+#Warp.hover {
+  opacity: 0%;
+}
+
+#Orville {
   position: absolute;
   z-index: 3;
-  top: 55px;
-  left: 680px; 
-  width: 110px;
-  height: 110px;
+  top: 490px;
+  left: 5px; 
+  width: 130px;
+  height: 130px;
   border-radius: 50%;
 }
-#MilleniumFalcon {
+#Orville {
   transition: .3s ease;
 }
-#MilleniumFalcon:hover {
+#Orville:hover {
   transform: scale(0);
   -ms-transform: scale(13);
 }
