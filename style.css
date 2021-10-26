@@ -6,7 +6,7 @@ body {
 
 #Planet {
   width: 400px;
-  padding-left: 80px;
+  padding-left: 30px;
   text-align: center;
   
   
@@ -28,30 +28,42 @@ h2 {
 #Lightspeed {
   position: absolute;
   z-index: 3;
-  top: 800px;
-  left: 10px; 
+  top: 60px;
+  left: 680px; 
   width: 100px;
+  height: 100px;
   border-radius: 50%;
 } 
 
 #MilleniumFalcon {
   position: absolute;
   z-index: 3;
-  top: 800px;
-  left: 10px; 
-  width: 100px;
+  top: 55px;
+  left: 680px; 
+  width: 110px;
+  height: 110px;
   border-radius: 50%;
+}
+
+#MilleniumFalcon:hover {
+    
 }
 
 
 #MattU {
     position: absolute;
     z-index: 4;
-    top: 280px;
-    left: 750px; 
-    width: 300px;
-    border-radius: 50%;
+    top: 230px;
+    left: 600px; 
+    width: 260px;
+    height: 260px;
+    border-radius: 50%; 
   }
+
+#MattU:hover {
+    transition: transform 60s;
+    transform: rotate(7200deg);
+}
 
   #fun > div {
   
@@ -62,7 +74,7 @@ h2 {
     text-align: center;
     font-size: x-large;
     line-height: 30px;
-    padding-top: 20px;
+    padding-top: 25px;
     
   }
 
