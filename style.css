@@ -1,5 +1,6 @@
 body {
     background-image: url(./Space-Image2.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
 }
 

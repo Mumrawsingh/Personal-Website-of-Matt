@@ -1,9 +1,8 @@
 
-JS
 
 function setNewImage() {
-        document.getElementById("sus").src ="/AmongUsShh";
+        document.getElementById("").src ="/";
    } 
 function setOldImage() {
-    document.getElementById("sus").src ="AmongUsSus";
+        document.getElementById("").src ="";
    }
