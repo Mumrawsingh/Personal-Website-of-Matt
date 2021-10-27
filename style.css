@@ -2,6 +2,7 @@ body {
     background-image: url(./Space-Image2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 
 #Planet {
@@ -64,8 +65,8 @@ h2 {
 #MattU {
     position: absolute;
     z-index: 4;
-    top: 230px;
-    left: 600px; 
+    top: 250px;
+    left: 750px; 
     width: 260px;
     height: 260px;
     border-radius: 50%; 
