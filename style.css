@@ -26,8 +26,8 @@ body {
 
 .navbar a {
   color: silver;
-  font-size: large;
-  font-size: xx-large;
+  font-size: larger;
+  font-family: Jazz LET, fantasy;
   padding-right: 5%;
   padding-left: 5%;
 }
