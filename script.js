@@ -1,32 +1,34 @@
 const newNavbar = document.createElement("nav");
+const homeLink = document.createElement("a");
 const githLink = document.createElement("a");
 const twitLink = document.createElement("a");
-const linkLink = document.createElement("a");
-const homeLink = document.createElement("a");
-const projectLink = document.createElement("a");
+const instaLink = document.createElement("a");
+
 
 newNavbar.className = "navbar";
+
+homeLink.href = "./index.html";
+homeLink.innerText = "Home";
+
 githLink.href = "https://github.com/Mumrawsingh";
 githLink.innerText = "Github";
 githLink.target = "_blank";
+
 twitLink.href = "https://twitter.com/iLikeItLikeMatt";
 twitLink.innerText = "Twitter";
 twitLink.target = "_blank";
-linkLink.href = "https://www.instagram.com/el_shiloh_/?hl=en";
-linkLink.innerText = "My Puppy";
-linkLink.target = "_blank";
-homeLink.href = "./index.html";
-homeLink.innerText = "Home";
-projectLink.href = "./projects.html";
-projectLink.innerText = "Projects";
 
-if (document.title === "Planet Matt | Home") {
-    newNavbar.append(projectLink)
-} else {
-    newNavbar.append(homeLink)
+instaLink.href = "https://www.instagram.com/el_shiloh_/?hl=en";
+instaLink.innerText = "My Puppy";
+instaLink.target = "_blank";
+
+    if (document.title === "Planet Matt | Home") {
+        newNavbar.append(projectLink)
+}   else {
+        newNavbar.append(homeLink)
 }
 
+document.body.querySelector(".container").prepend(newNavbar)
 newNavbar.append(githLink)
 newNavbar.append(twitLink)
-newNavbar.append(linkLink)
-document.body.querySelector(".container").prepend(newNavbar)
+newNavbar.append(instaLink)
