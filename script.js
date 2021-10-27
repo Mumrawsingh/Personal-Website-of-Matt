@@ -1,14 +1,19 @@
 const newNavbar = document.createElement("nav");
+const githLink = document.createElement("a");
+const twitLink = document.createElement("a");
+const linkLink = document.createElement("a");
+const homeLink = document.createElement("a");
+const projectLink = document.createElement("a");
 
 newNavbar.className = "navbar";
-ithLink.href = "https://github.com/Mumrawsingh";
+githLink.href = "https://github.com/Mumrawsingh";
 githLink.innerText = "Github";
 githLink.target = "_blank";
 twitLink.href = "https://twitter.com/iLikeItLikeMatt";
 twitLink.innerText = "Twitter";
 twitLink.target = "_blank";
-linkLink.href = "https://www.linkedin.com/in/obedmunozjr";
-linkLink.innerText = "LinkedIn";
+linkLink.href = "https://www.instagram.com/el_shiloh_/?hl=en";
+linkLink.innerText = "My Puppy";
 linkLink.target = "_blank";
 homeLink.href = "./index.html";
 homeLink.innerText = "Home";
