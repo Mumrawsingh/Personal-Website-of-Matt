@@ -86,11 +86,11 @@ h2 {
   border-radius: 50%;
 }
 #Orville {
-  transition: .3s ease;
+  transition: 1s ease;
 }
 #Orville:hover {
   transform: scale(0);
-  -ms-transform: scale(13);
+  -ms-transform: scale(0);
 }
 
 
