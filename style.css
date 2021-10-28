@@ -68,19 +68,12 @@ h2 {
   border-radius: 50%;
 } 
 
-/*#Warp {
-  opacity: 100%;
-}
-
-#Warp.hover {
-  opacity: 0%;
-}*/
 
 #Orville {
   position: absolute;
   z-index: 3;
-  top: 490px;
-  left: 3px; 
+  top: 495px;
+  left: 4px; 
   width: 130px;
   height: 130px;
   border-radius: 50%;
