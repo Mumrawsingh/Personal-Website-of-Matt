@@ -86,10 +86,10 @@ h2 {
   border-radius: 50%;
 }
 #Orville {
-  transition: 1s ease;
+  transition: 2s ease;
 }
 #Orville:hover {
-  transform: scale(0) rotate(33deg);
+  transform: scale(0) rotate(20deg) skew(-20deg);
 }
 
 
